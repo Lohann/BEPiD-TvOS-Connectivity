@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="pYJ-lx-IlS">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Game View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="GameViewController" customModule="JoyStick" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8aa-yV-Osq"/>
+                        <viewControllerLayoutGuide type="bottom" id="qHh-Mt-9TT"/>
+                    </layoutGuides>
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="3se-qz-xqx" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="764" y="646"/>
+        </scene>
+        <!--Start View Controller-->
+        <scene sceneID="vGu-CD-8UW">
+            <objects>
+                <viewController id="pYJ-lx-IlS" customClass="StartViewController" customModule="JoyStick" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qVM-HZ-mvI"/>
+                        <viewControllerLayoutGuide type="bottom" id="nPN-Nh-dEW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SuK-aN-q26">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k8a-if-hPm">
+                                <rect key="frame" x="460" y="147" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="FWp-oq-d63"/>
+                                    <constraint firstAttribute="width" constant="100" id="LIU-cy-uwd"/>
+                                </constraints>
+                                <state key="normal" title="CoreBluetooth">
+                                    <color key="titleColor" red="0.78343986740000005" green="0.76995828619999995" blue="0.77750460180000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnCoreBluetooth:" destination="pYJ-lx-IlS" eventType="touchUpInside" id="JLV-mt-ln5"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Choose a name" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="gnw-Ni-9Vd">
+                                <rect key="frame" x="100" y="97" width="460" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QDw-EA-9ld">
+                                <rect key="frame" x="40" y="104" width="50" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="ycA-37-ITy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BEPiD.IO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZRl-2l-dou">
+                                <rect key="frame" x="232" y="40" width="136" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GjY-1v-0Gc">
+                                <rect key="frame" x="40" y="147" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="QjF-zQ-sGP"/>
+                                    <constraint firstAttribute="height" constant="50" id="lK2-ab-7PF"/>
+                                </constraints>
+                                <state key="normal" title="TCP">
+                                    <color key="titleColor" red="0.78343986740000005" green="0.76995828619999995" blue="0.77750460180000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnTCP:" destination="pYJ-lx-IlS" eventType="touchUpInside" id="OTu-RG-HDx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QDw-EA-9ld" firstAttribute="top" secondItem="qVM-HZ-mvI" secondAttribute="bottom" constant="84" id="2Pf-2B-n5G"/>
+                            <constraint firstItem="ZRl-2l-dou" firstAttribute="top" secondItem="qVM-HZ-mvI" secondAttribute="bottom" constant="20" id="4gA-Q7-dTP"/>
+                            <constraint firstItem="gnw-Ni-9Vd" firstAttribute="top" secondItem="ZRl-2l-dou" secondAttribute="bottom" constant="15" id="6dR-8C-teU"/>
+                            <constraint firstItem="QDw-EA-9ld" firstAttribute="leading" secondItem="SuK-aN-q26" secondAttribute="leadingMargin" constant="20" id="9sK-Zj-T9b"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gnw-Ni-9Vd" secondAttribute="trailing" constant="20" id="EhW-g2-PZG"/>
+                            <constraint firstItem="GjY-1v-0Gc" firstAttribute="leading" secondItem="SuK-aN-q26" secondAttribute="leadingMargin" constant="20" id="VqM-Ku-Ufn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="k8a-if-hPm" secondAttribute="trailing" constant="20" id="WPk-aC-uEH"/>
+                            <constraint firstItem="gnw-Ni-9Vd" firstAttribute="leading" secondItem="QDw-EA-9ld" secondAttribute="trailing" constant="10" id="byT-ps-vaz"/>
+                            <constraint firstItem="ZRl-2l-dou" firstAttribute="centerX" secondItem="SuK-aN-q26" secondAttribute="centerX" id="d4j-I2-glr"/>
+                            <constraint firstItem="GjY-1v-0Gc" firstAttribute="top" secondItem="gnw-Ni-9Vd" secondAttribute="bottom" constant="20" id="gG1-Nd-GNJ"/>
+                            <constraint firstItem="k8a-if-hPm" firstAttribute="top" secondItem="gnw-Ni-9Vd" secondAttribute="bottom" constant="20" id="oyL-6f-1QU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="txtfName" destination="gnw-Ni-9Vd" id="5qU-aP-Cl3"/>
+                        <segue destination="BV1-FR-VrT" kind="show" identifier="goJoystick" id="6Bj-ZE-ysI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="49d-Wa-g47" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="64" y="646"/>
+        </scene>
+    </scenes>
+</document>

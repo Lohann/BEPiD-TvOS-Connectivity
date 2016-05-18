@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74061D971CE64A2C00CA3025 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74061D961CE64A2C00CA3025 /* StartViewController.swift */; };
+		74061D991CE6560200CA3025 /* BluetoothClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74061D981CE6560200CA3025 /* BluetoothClient.swift */; };
+		74061D9B1CE6560D00CA3025 /* Bluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74061D9A1CE6560D00CA3025 /* Bluetooth.swift */; };
+		74061D9D1CE6765E00CA3025 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74061D9C1CE6765E00CA3025 /* Singleton.swift */; };
+		74E0D05F1CE5158200A4E780 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E0D05E1CE5158200A4E780 /* AppDelegate.swift */; };
+		74E0D0611CE5158200A4E780 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 74E0D0601CE5158200A4E780 /* GameScene.sks */; };
+		74E0D0631CE5158200A4E780 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E0D0621CE5158200A4E780 /* GameScene.swift */; };
+		74E0D0651CE5158200A4E780 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E0D0641CE5158200A4E780 /* GameViewController.swift */; };
+		74E0D0681CE5158200A4E780 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E0D0661CE5158200A4E780 /* Main.storyboard */; };
+		74E0D06A1CE5158200A4E780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E0D0691CE5158200A4E780 /* Assets.xcassets */; };
+		74E0D06D1CE5158200A4E780 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E0D06B1CE5158200A4E780 /* LaunchScreen.storyboard */; };
+		74E0D07A1CE5262A00A4E780 /* BonjourTCPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E0D0781CE5262A00A4E780 /* BonjourTCPServer.swift */; };
+		74E0D07B1CE5262A00A4E780 /* BonjourTCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E0D0791CE5262A00A4E780 /* BonjourTCPClient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74061D961CE64A2C00CA3025 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		74061D981CE6560200CA3025 /* BluetoothClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothClient.swift; sourceTree = "<group>"; };
+		74061D9A1CE6560D00CA3025 /* Bluetooth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bluetooth.swift; sourceTree = "<group>"; };
+		74061D9C1CE6765E00CA3025 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		74E0D05B1CE5158200A4E780 /* JoyStick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JoyStick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E0D05E1CE5158200A4E780 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74E0D0601CE5158200A4E780 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		74E0D0621CE5158200A4E780 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		74E0D0641CE5158200A4E780 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		74E0D0671CE5158200A4E780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74E0D0691CE5158200A4E780 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74E0D06C1CE5158200A4E780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74E0D06E1CE5158200A4E780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E0D0781CE5262A00A4E780 /* BonjourTCPServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BonjourTCPServer.swift; sourceTree = "<group>"; };
+		74E0D0791CE5262A00A4E780 /* BonjourTCPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BonjourTCPClient.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74E0D0581CE5158200A4E780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74061D9E1CE67E8900CA3025 /* BlueTooth */ = {
+			isa = PBXGroup;
+			children = (
+				74061D9A1CE6560D00CA3025 /* Bluetooth.swift */,
+				74061D981CE6560200CA3025 /* BluetoothClient.swift */,
+			);
+			name = BlueTooth;
+			sourceTree = "<group>";
+		};
+		74061D9F1CE67E9500CA3025 /* TCP */ = {
+			isa = PBXGroup;
+			children = (
+				74E0D0781CE5262A00A4E780 /* BonjourTCPServer.swift */,
+				74E0D0791CE5262A00A4E780 /* BonjourTCPClient.swift */,
+			);
+			name = TCP;
+			sourceTree = "<group>";
+		};
+		74E0D0521CE5158200A4E780 = {
+			isa = PBXGroup;
+			children = (
+				74E0D05D1CE5158200A4E780 /* JoyStick */,
+				74E0D05C1CE5158200A4E780 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74E0D05C1CE5158200A4E780 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74E0D05B1CE5158200A4E780 /* JoyStick.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74E0D05D1CE5158200A4E780 /* JoyStick */ = {
+			isa = PBXGroup;
+			children = (
+				74E0D05E1CE5158200A4E780 /* AppDelegate.swift */,
+				74061D9C1CE6765E00CA3025 /* Singleton.swift */,
+				74061D9E1CE67E8900CA3025 /* BlueTooth */,
+				74061D9F1CE67E9500CA3025 /* TCP */,
+				74061D961CE64A2C00CA3025 /* StartViewController.swift */,
+				74E0D0641CE5158200A4E780 /* GameViewController.swift */,
+				74E0D0621CE5158200A4E780 /* GameScene.swift */,
+				74E0D0601CE5158200A4E780 /* GameScene.sks */,
+				74E0D0661CE5158200A4E780 /* Main.storyboard */,
+				74E0D0691CE5158200A4E780 /* Assets.xcassets */,
+				74E0D06B1CE5158200A4E780 /* LaunchScreen.storyboard */,
+				74E0D06E1CE5158200A4E780 /* Info.plist */,
+			);
+			path = JoyStick;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74E0D05A1CE5158200A4E780 /* JoyStick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E0D0711CE5158200A4E780 /* Build configuration list for PBXNativeTarget "JoyStick" */;
+			buildPhases = (
+				74E0D0571CE5158200A4E780 /* Sources */,
+				74E0D0581CE5158200A4E780 /* Frameworks */,
+				74E0D0591CE5158200A4E780 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JoyStick;
+			productName = JoyStick;
+			productReference = 74E0D05B1CE5158200A4E780 /* JoyStick.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74E0D0531CE5158200A4E780 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Luiz Veloso";
+				TargetAttributes = {
+					74E0D05A1CE5158200A4E780 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = KCSRYU5447;
+					};
+				};
+			};
+			buildConfigurationList = 74E0D0561CE5158200A4E780 /* Build configuration list for PBXProject "JoyStick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74E0D0521CE5158200A4E780;
+			productRefGroup = 74E0D05C1CE5158200A4E780 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74E0D05A1CE5158200A4E780 /* JoyStick */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74E0D0591CE5158200A4E780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E0D0611CE5158200A4E780 /* GameScene.sks in Resources */,
+				74E0D06D1CE5158200A4E780 /* LaunchScreen.storyboard in Resources */,
+				74E0D06A1CE5158200A4E780 /* Assets.xcassets in Resources */,
+				74E0D0681CE5158200A4E780 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74E0D0571CE5158200A4E780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74061D9B1CE6560D00CA3025 /* Bluetooth.swift in Sources */,
+				74061D9D1CE6765E00CA3025 /* Singleton.swift in Sources */,
+				74E0D0631CE5158200A4E780 /* GameScene.swift in Sources */,
+				74061D991CE6560200CA3025 /* BluetoothClient.swift in Sources */,
+				74E0D07B1CE5262A00A4E780 /* BonjourTCPClient.swift in Sources */,
+				74E0D0651CE5158200A4E780 /* GameViewController.swift in Sources */,
+				74E0D07A1CE5262A00A4E780 /* BonjourTCPServer.swift in Sources */,
+				74E0D05F1CE5158200A4E780 /* AppDelegate.swift in Sources */,
+				74061D971CE64A2C00CA3025 /* StartViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74E0D0661CE5158200A4E780 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74E0D0671CE5158200A4E780 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74E0D06B1CE5158200A4E780 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74E0D06C1CE5158200A4E780 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74E0D06F1CE5158200A4E780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74E0D0701CE5158200A4E780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74E0D0721CE5158200A4E780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = JoyStick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.luizv.JoyStick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		74E0D0731CE5158200A4E780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = JoyStick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.luizv.JoyStick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74E0D0561CE5158200A4E780 /* Build configuration list for PBXProject "JoyStick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E0D06F1CE5158200A4E780 /* Debug */,
+				74E0D0701CE5158200A4E780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74E0D0711CE5158200A4E780 /* Build configuration list for PBXNativeTarget "JoyStick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E0D0721CE5158200A4E780 /* Debug */,
+				74E0D0731CE5158200A4E780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74E0D0531CE5158200A4E780 /* Project object */;
+}
